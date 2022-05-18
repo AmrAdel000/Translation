@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/btn_ubdate"
+        android:title="تعديل الاسم"
+        />
+    <item
+        android:id="@+id/btn_delete"
+        android:title="حذف الملف"
+        />
+    <item
+        android:id="@+id/btn_settings"
+        android:title="الاعدادات"
+        />
+</menu>

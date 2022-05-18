@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="@dimen/_100sdp"
+    android:minHeight="@dimen/_100sdp"
+    android:minWidth="@dimen/_150sdp"
+    android:background="@drawable/ic_baseline_folder_24"
+    android:layoutDirection="rtl">
+
+
+    <EditText
+        android:id="@+id/textView"
+        android:layout_width="180dp"
+        android:layout_height="39dp"
+        android:background="#004563C7"
+        android:hint="اكتب الاسم"
+        android:textColor="@color/row2text"
+        android:textSize="@dimen/_20sdp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.395" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="@dimen/_100sdp"
+        android:layout_height="@dimen/_30sdp"
+        android:gravity="center|bottom"
+        android:onClick="update_file_name"
+        android:text="Save"
+        app:backgroundTint="#3F5B95"
+        app:cornerRadius="@dimen/_150sdp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.681" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

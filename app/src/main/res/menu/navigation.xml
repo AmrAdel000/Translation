@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home2"
+        android:title="الاعدادات"
+        android:icon="@drawable/ic_icons8_flat_settings_svg"/>
+    <item
+        android:id="@+id/home0"
+        android:title="تغيير الثيم"
+        android:icon="@drawable/themeicon"/>
+
+    <item
+        android:id="@+id/home6"
+        android:title="حسابي"
+        android:icon="@drawable/person"/>
+    <item
+        android:id="@+id/home7"
+        android:title="جميع الكلمات"
+        android:icon="@drawable/person"/>
+    <item
+        android:id="@+id/home4"
+        android:title="التخزين السحابي" />
+    <item
+        android:id="@+id/home5"
+        android:title="المساعده والدعم"
+        android:icon="@drawable/person"/>
+</menu>

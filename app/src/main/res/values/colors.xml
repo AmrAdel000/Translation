@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="good">#7E91AF</color>
+    <color name="good2">#141E37</color>
+    <color name="good3">#4563C7</color>
+    <color name="good4">#474A5D</color>
+    <color name="good5">#F2F2F2</color>
+    <color name="white100">#F2F2F2</color>
+    <color name="white200">#FCFCFC</color>
+    <color name="row1title">#212121</color>
+    <color name="main1title">#F2252525</color>
+    <color name="iconecontrole">#CD212121</color>
+    <color name="hint2">#E2252525</color>
+    <color name="main2textvew2">#B43E3F41</color>
+    <color name="row2text">#1f1f1f</color>
+    <color name="buttoncolor">#F5F5F5</color>
+    <color name="buttontextcolor">#20262F</color>
+    <color name="textbook">#FF000000</color>
+    <color name="light_blue_50">#FFE1F5FE</color>
+    <color name="light_blue_200">#FF81D4FA</color>
+    <color name="light_blue_600">#FF039BE5</color>
+    <color name="light_blue_900">#FF01579B</color>
+    <color name="Alarm">#4663C7</color>
+    <color name="lock">#E8E8E8</color>
+    <color name="facecolor">#F2F2F2</color>
+    <color name="facecoloritem">#252525</color>
+    <color name="menucolor">#CD000000</color>
+    <color name="color_shape">#403C3C3C</color>
+    <color name="normal_theme_color_1">#F2F2F2</color>
+    <color name="normal_theme_color_2">#FCFCFC</color>
+    <color name="line_color">#B4C7C7C8</color>
+
+
+</resources>

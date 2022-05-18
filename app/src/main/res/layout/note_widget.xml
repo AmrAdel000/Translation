@@ -1,0 +1,22 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#007E91AF"
+    android:padding="@dimen/widget_margin"
+    android:layoutDirection="rtl"
+    android:theme="@style/ThemeOverlay.Notes.AppWidgetContainer">
+
+    <TextView
+        android:id="@+id/update"
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/_3sdp"
+        android:text="لعب      ==     play"
+        android:textColor="#E6FFFFFF"
+        android:gravity="center_horizontal|center_vertical"
+        android:background="@drawable/widgetwalldark"
+        android:textSize="@dimen/_23sdp"
+ />
+</LinearLayout>

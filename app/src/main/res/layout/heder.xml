@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+   android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_169sdp"
+    android:background="#00FFFFFF"
+    android:id="@+id/header"
+    android:layoutDirection="rtl">
+
+    <TextView
+        android:id="@+id/sicoo"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp"
+        android:textColor="@color/main2textvew2"
+        android:text="التذكير القادم بعد"
+        android:gravity="center|bottom"
+        android:textSize="@dimen/_14sdp" />
+
+<TextView
+    android:id="@+id/sico"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_90sdp"
+    android:text="لا يوجد تذكير"
+    android:textColor="@color/main1title"
+    android:gravity="center"
+    android:textSize="@dimen/_30sdp" />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_38sdp"
+        android:layout_marginBottom="@dimen/_46sdp"
+        android:hint="اكتب ملاحظه"
+        android:background="#004563C7"
+        android:gravity="center"
+        android:id="@+id/textbass"/>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

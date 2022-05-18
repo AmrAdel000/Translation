@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="@dimen/_150sdp"
+    android:minHeight="@dimen/_200sdp"
+    android:minWidth="@dimen/_150sdp"
+    android:background="@drawable/shape3">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="@dimen/_15sdp"
+        android:textColor="@color/row2text"
+
+        app:layout_constraintBottom_toBottomOf="@+id/sentence_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.2" />
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="@dimen/_130sdp"
+        android:layout_height="0.1dp"
+        android:background="@color/main2textvew2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.369" />
+
+    <Button
+        android:id="@+id/sentence_btn"
+        android:layout_width="@dimen/_100sdp"
+        android:layout_height="@dimen/_30sdp"
+        android:layout_marginBottom="9dp"
+        android:gravity="center|bottom"
+        android:onClick="cccv"
+        android:text="حفظ"
+        android:textColor="@color/row2text"
+        app:backgroundTint="#3F5B95"
+        app:cornerRadius="@dimen/_150sdp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+    <Button
+        android:id="@+id/sentence_btn_2"
+        android:layout_width="@dimen/_100sdp"
+        android:layout_height="@dimen/_30sdp"
+        android:layout_marginBottom="9dp"
+        android:gravity="center|bottom"
+        android:onClick="sentence_btn_2"
+        android:text="حذف"
+        android:textColor="@color/row2text"
+        app:backgroundTint="#A81F2F"
+        app:cornerRadius="@dimen/_150sdp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textColor="@color/row2text"
+        android:textSize="@dimen/_12sdp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.574" />
+</androidx.constraintlayout.widget.ConstraintLayout>

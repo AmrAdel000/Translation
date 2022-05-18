@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linl"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white100"
+    tools:context=".Book"
+    android:layoutDirection="rtl">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/_42sdp"
+        android:background="#00F2F2F2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <androidx.coordinatorlayout.widget.CoordinatorLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/textt"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:autoLink="all|web|phone|email"
+                android:background="#00FFFFFF"
+                android:ems="10"
+                android:text="ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:linksClickable="true"
+                android:longClickable="true"
+                android:padding="@dimen/_9sdp"
+                android:paddingTop="@dimen/_120sdp"
+                android:textColor="@color/textbook"
+                android:textColorLink="#213FF4"
+                android:textSize="@dimen/_15sdp" />
+
+            <TextView
+                android:id="@+id/Trans_text"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:autoLink="all|web|phone|email"
+                android:background="#00FFFFFF"
+                android:ems="10"
+                android:gravity="start|top"
+                android:linksClickable="true"
+                android:longClickable="true"
+                android:padding="@dimen/_9sdp"
+                android:paddingTop="@dimen/_120sdp"
+                android:text="ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv"
+                android:textColor="@color/textbook"
+                android:textColorLink="#BC78A2D1"
+                android:textSize="@dimen/_15sdp" />
+        </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    </ScrollView>
+
+    <ImageButton
+        android:id="@+id/buttonvm"
+        android:layout_width="@dimen/_22sdp"
+        android:layout_height="@dimen/_22sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginLeft="@dimen/_7sdp"
+        android:background="@drawable/ic_baseline_more_vert_24"
+        android:onClick="menuee_book"
+        android:textColor="#20262F"
+        android:textSize="@dimen/_11sdp"
+        app:cornerRadius="@dimen/_70sdp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:id="@+id/buttonvsearsh"
+        android:layout_width="@dimen/_22sdp"
+        android:layout_height="@dimen/_22sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginLeft="@dimen/_33sdp"
+        android:background="@drawable/ic_baseline_g_translate_24"
+        android:onClick="Trans"
+        android:textColor="#20262F"
+        android:textSize="16dp"
+        app:cornerRadius="@dimen/_70sdp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:id="@+id/icontitle"
+        android:layout_width="@dimen/_20sdp"
+        android:layout_height="@dimen/_20sdp"
+        android:layout_marginLeft="@dimen/_190sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:background="@drawable/ic_icons8_back_100"
+        android:onClick="back"
+        android:textColor="#20262F"
+        app:cornerRadius="@dimen/_70sdp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.043"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:id="@+id/buttoncopy"
+        android:layout_width="@dimen/_22sdp"
+        android:layout_height="@dimen/_22sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginLeft="@dimen/_63sdp"
+        android:background="@drawable/imagecopy"
+        android:onClick="copy"
+        android:textColor="#20262F"
+        android:textSize="16dp"
+        app:cornerRadius="@dimen/_70sdp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="wrap_content"
+        android:layout_height="0.1dp"
+        android:layout_marginTop="@dimen/_42sdp"
+        android:background="@color/main2textvew2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/textView2"
+        android:layout_width="@dimen/_185sdp"
+        android:layout_height="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_11sdp"
+        android:background="#00F2F2F2"
+        android:textSize="@dimen/_14sdp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.267"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" /><![CDATA[
+
+
+
+        android:text="Button" />
+
+
+]]>
+</androidx.constraintlayout.widget.ConstraintLayout>
